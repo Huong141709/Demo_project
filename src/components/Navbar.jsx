@@ -72,7 +72,7 @@ const Navbar = () => {
             <NavLink to="/cart" className="btn btn-outline-dark m-2">
               <i className="fa fa-cart-shopping mr-1"></i> Giỏ hàng ({state.length})
             </NavLink>
-            <NavLink to="/login" className="btn btn-outline-dark m-2">
+            <NavLink to="/admin" className="btn btn-outline-dark m-2">
               <i className="mr-1"></i> Quản trị viên
             </NavLink>
           </div>
