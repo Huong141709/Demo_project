@@ -67,14 +67,15 @@ const Navbar = () => {
                 <NavLink to="/register" className="btn btn-outline-dark m-2">
                   <i className="fa fa-user-plus mr-1"></i> Đăng ký
                 </NavLink>
+                <NavLink to="/admin" className="btn btn-outline-dark m-2">
+              <i className="mr-1"></i> Quản trị viên
+            </NavLink>
               </>
             )}
             <NavLink to="/cart" className="btn btn-outline-dark m-2">
               <i className="fa fa-cart-shopping mr-1"></i> Giỏ hàng ({state.length})
             </NavLink>
-            <NavLink to="/admin" className="btn btn-outline-dark m-2">
-              <i className="mr-1"></i> Quản trị viên
-            </NavLink>
+            
           </div>
         </div>
       </div>
